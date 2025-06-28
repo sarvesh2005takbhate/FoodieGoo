@@ -84,7 +84,7 @@ This project includes comprehensive screenshots showcasing all three main compon
 ## 📁 Project Structure
 
 ```
-food-del/
+FoodieGoo/
 ├── 📱 frontend/          # React customer app
 │   ├── src/
 │   │   ├── components/   # Reusable components
