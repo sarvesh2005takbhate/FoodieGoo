@@ -188,7 +188,7 @@ npm run dev
 2. **COD**: Processes order immediately
 3. **Verification**: Confirms payment and updates order status
 
-## 📱 API Endpoints
+## 📱 API Endpoints (POSTMAN)
 
 ### Authentication
 ```
