@@ -33,7 +33,35 @@ A full-stack food delivery application built with the MERN stack (MongoDB, Expre
 - **File Upload** - Image upload for food items
 - **Order Verification** - Payment verification system
 
-## 🛠️ Tech Stack
+## � Screenshots
+
+This project includes comprehensive screenshots showcasing all three main components:
+
+### 🛒 Frontend (Customer App)
+- Home page with food menu and categories
+- User authentication (login/register)
+- Shopping cart and checkout process
+- Payment integration (Stripe & COD)
+- Order tracking and history
+- Responsive design across devices
+
+### 🔧 Admin Panel
+- Order management dashboard
+- Real-time order notifications
+- Food item management (add/edit/delete)
+- Order status updates
+- Analytics and reporting interface
+
+### 🖥️ Backend API
+- API endpoint documentation
+- Database schema and models
+- Authentication middleware
+- Payment processing workflow
+- File upload functionality
+
+*Screenshots demonstrate the complete user journey from browsing food items to order completion, as well as the admin workflow for managing orders and inventory.*
+
+## �🛠️ Tech Stack
 
 ### Frontend
 - **React.js** - UI library
