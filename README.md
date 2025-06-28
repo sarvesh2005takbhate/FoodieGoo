@@ -305,37 +305,3 @@ Use Stripe test cards:
   payment: Boolean
 }
 ```
-
-## 🚀 Deployment
-
-### Backend Deployment (e.g., Heroku)
-1. Set environment variables
-2. Update MongoDB URI for production
-3. Replace Stripe test keys with live keys
-4. Deploy using git
-
-### Frontend Deployment (e.g., Netlify/Vercel)
-1. Update API URLs for production
-2. Build the project: `npm run build`
-3. Deploy the `dist` folder
-
-### Important for Production
-- Use HTTPS for secure payments
-- Set up proper CORS policies
-- Enable Stripe webhooks for reliable payment processing
-- Set up proper error logging
-- Configure rate limiting
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow ES6+ standards
-- Use meaningful commit messages
-- Test your changes thoroughly
-- Update documentation as needed
