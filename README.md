@@ -33,7 +33,7 @@ A full-stack food delivery application built with the MERN stack (MongoDB, Expre
 - **File Upload** - Image upload for food items
 - **Order Verification** - Payment verification system
 
-## � Screenshots
+## 📸 Screenshots
 
 This project includes comprehensive screenshots showcasing all three main components:
 
