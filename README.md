@@ -35,31 +35,140 @@ A full-stack food delivery application built with the MERN stack (MongoDB, Expre
 
 ## 📸 Screenshots
 
+<div align="center">
+  <img src="frontend/src/assets/logo.png" alt="FoodieGoo Logo" width="120" style="margin-bottom: 20px; opacity: 0.8;"/>
+  <h3>🍕 Application Showcase</h3>
+</div>
+
 This project includes comprehensive screenshots showcasing all three main components:
 
+---
+
 ### 🛒 Frontend (Customer App)
-- Home page with food menu and categories
-- User authentication (login/register)
-- Shopping cart and checkout process
-- Payment integration (Stripe & COD)
-- Order tracking and history
-- Responsive design across devices
+
+#### 🏠 Home Page & Menu
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<img src="ScreenShots/frontend/home.png" alt="Home Page" width="100%"/>
+<br/><em>Modern homepage with hero section and categories</em>
+</td>
+<td align="center" width="50%">
+<img src="ScreenShots/frontend/menu.png" alt="Menu Page" width="100%"/>
+<br/><em>Comprehensive food menu with filtering</em>
+</td>
+</tr>
+</table>
+
+#### 🔐 Authentication System
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<img src="ScreenShots/frontend/login.png" alt="Login Page" width="100%"/>
+<br/><em>Secure login form with validation</em>
+</td>
+<td align="center" width="50%">
+<img src="ScreenShots/frontend/signup.png" alt="Signup Page" width="100%"/>
+<br/><em>User registration with form validation</em>
+</td>
+</tr>
+</table>
+
+#### 🛒 Shopping & Order Flow
+<table align="center">
+<tr>
+<td align="center" width="33%">
+<img src="ScreenShots/frontend/dishes.png" alt="Food Items" width="100%"/>
+<br/><em>Food items with add to cart</em>
+</td>
+<td align="center" width="33%">
+<img src="ScreenShots/frontend/cart_page.png" alt="Cart Page" width="100%"/>
+<br/><em>Shopping cart management</em>
+</td>
+<td align="center" width="33%">
+<img src="ScreenShots/frontend/placeorder_page.png" alt="Place Order" width="100%"/>
+<br/><em>Checkout and payment selection</em>
+</td>
+</tr>
+</table>
+
+#### 📦 Order Tracking & Site Footer
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<img src="ScreenShots/frontend/orders_page.png" alt="Orders Page" width="100%"/>
+<br/><em>Real-time order status tracking</em>
+</td>
+<td align="center" width="50%">
+<img src="ScreenShots/frontend/footer.png" alt="Footer" width="100%"/>
+<br/><em>Site footer with social links</em>
+</td>
+</tr>
+</table>
+
+---
 
 ### 🔧 Admin Panel
-- Order management dashboard
-- Real-time order notifications
-- Food item management (add/edit/delete)
-- Order status updates
-- Analytics and reporting interface
 
-### 🖥️ Backend API
-- API endpoint documentation
-- Database schema and models
-- Authentication middleware
-- Payment processing workflow
-- File upload functionality
+#### 📊 Dashboard & Order Management
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<img src="ScreenShots/admin/admin_mainpage.png" alt="Admin Dashboard" width="100%"/>
+<br/><em>Admin dashboard with navigation</em>
+</td>
+<td align="center" width="50%">
+<img src="ScreenShots/admin/admin_orderlist.png" alt="Order Management" width="100%"/>
+<br/><em>Real-time order management system</em>
+</td>
+</tr>
+</table>
 
-*Screenshots demonstrate the complete user journey from browsing food items to order completion, as well as the admin workflow for managing orders and inventory.*
+#### 🍕 Food Item Management
+<div align="center">
+<img src="ScreenShots/admin/admin_itemlist.png" alt="Food Items Management" width="80%"/>
+<br/><em>Add, edit, and manage food items with image uploads</em>
+</div>
+
+---
+
+### 🖥️ Backend & Database
+
+#### 💾 MongoDB Database Collections
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<img src="ScreenShots/backend/mongodb_users_database.png" alt="Users Database" width="100%"/>
+<br/><em>User collection with authentication data</em>
+</td>
+<td align="center" width="50%">
+<img src="ScreenShots/backend/mongodb_orders_Database.png" alt="Orders Database" width="100%"/>
+<br/><em>Orders collection with payment status</em>
+</td>
+</tr>
+</table>
+
+#### 🔧 API Testing & Payment Integration
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<img src="ScreenShots/backend/postman_client_backend.png" alt="API Testing" width="100%"/>
+<br/><em>RESTful API endpoints via Postman</em>
+</td>
+<td align="center" width="50%">
+<img src="ScreenShots/backend/stripe_backend.png" alt="Stripe Integration" width="100%"/>
+<br/><em>Secure payment processing with Stripe</em>
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+  <img src="frontend/src/assets/logo.png" alt="FoodieGoo" width="80" style="opacity: 0.5; margin: 20px 0;"/>
+  <br/>
+  <em>🍕 FoodieGoo - Complete Food Delivery Solution 🚀</em>
+</div>
 
 ## �🛠️ Tech Stack
 
