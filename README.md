@@ -2,6 +2,21 @@
 
 A full-stack food delivery application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) featuring Stripe payment integration, real-time order management, and a comprehensive admin panel.
 
+## 🌐 Live Demo
+
+| Component | Live URL | Description |
+|-----------|----------|-------------|
+| 🛒 **Customer App** | [https://foodiegoo-frontend.vercel.app](https://foodiegoo-frontend.vercel.app) | Main food ordering application |
+| 🔧 **Admin Panel** | [https://foodiegoo-admin.vercel.app](https://foodiegoo-admin.vercel.app) | Restaurant management dashboard |
+| 🚀 **Backend API** | [https://foodiegoo-backend.railway.app](https://foodiegoo-backend.railway.app) | RESTful API server |
+
+> **Note**: Replace the URLs above with your actual deployment URLs after deploying to live servers.
+
+### 🎯 Quick Test
+- **Customer App**: Browse menu, add items to cart, and place orders
+- **Admin Panel**: Manage orders, add food items, and track deliveries
+- **Test Payments**: Use Stripe test cards (4242 4242 4242 4242)
+
 ## 🌟 Features
 
 ### 🛒 Frontend (Customer App)
