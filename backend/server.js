@@ -19,10 +19,11 @@ const port = process.env.PORT || 4000;
 app.use(express.json()) //request from frontend
 app.use(cors({
     origin: [
-        "https://eclectic-beignet-773c7f.netlify.app",
-        "https://fanciful-sfogliatella-6e62c1.netlify.app",
+        "https://glistening-heliotrope-9dc685.netlify.app",
+        "https://capable-rolypoly-60bb52.netlify.app",
         "http://localhost:3000",
-        "http://localhost:5173"
+        "http://localhost:5173",
+        "http://localhost:5174"
     ],
     credentials: true
 })) //backend from any content
@@ -39,7 +40,20 @@ app.use("/api/order", orderRouter);
 app.use("/images",express.static("uploads")); //to access images from uploads folder
 
 app.get("/",(req,res)=>{
-    res.send("API WORKING")
+    res.json({
+        success: true,
+        message: "FoodieGoo API is running successfully!",
+        timestamp: new Date().toISOString()
+    })
+})
+
+// Health check endpoint
+app.get("/health",(req,res)=>{
+    res.json({
+        status: "healthy",
+        uptime: process.uptime(),
+        timestamp: new Date().toISOString()
+    })
 })
 
 app.listen(port, () => {

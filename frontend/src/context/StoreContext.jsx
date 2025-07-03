@@ -6,7 +6,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = "https://foodiegoo-backend.onrender.com"
+    const url = "https://foodiegoo.onrender.com"
     const [token, setToken] = useState("")
     const [food_list, setFoodList] = useState([])
 
@@ -41,8 +41,14 @@ const StoreContextProvider = (props) => {
     }
 
     const fetchFoodList = async () => {
-        const response = await axios.get(url + "/api/food/list");
-        setFoodList(response.data.data)
+        try {
+            console.log("Fetching food list from:", url + "/api/food/list");
+            const response = await axios.get(url + "/api/food/list");
+            console.log("Food list response:", response.data);
+            setFoodList(response.data.data)
+        } catch (error) {
+            console.error("Error fetching food list:", error);
+        }
     }
 
     const loadCartData = async (token) => {

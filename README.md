@@ -6,11 +6,11 @@ A full-stack food delivery application built with the MERN stack (MongoDB, Expre
 
 | Component | Live URL | Description |
 |-----------|----------|-------------|
-| 🛒 **Customer App** | [YOUR-NETLIFY-FRONTEND-URL](https://your-app.netlify.app) | Main food ordering application |
-| 🔧 **Admin Panel** | [YOUR-NETLIFY-ADMIN-URL](https://your-admin.netlify.app) | Restaurant management dashboard |
-| 🚀 **Backend API** | [YOUR-RAILWAY-BACKEND-URL](https://your-backend.railway.app) | RESTful API server |
+| 🛒 **Customer App** | [https://glistening-heliotrope-9dc685.netlify.app](https://glistening-heliotrope-9dc685.netlify.app) | Main food ordering application |
+| 🔧 **Admin Panel** | [https://capable-rolypoly-60bb52.netlify.app](https://capable-rolypoly-60bb52.netlify.app) | Restaurant management dashboard |
+| 🚀 **Backend API** | [https://foodiegoo.onrender.com](https://foodiegoo.onrender.com) | RESTful API server |
 
-> **✅ Frontend deployed on Netlify!** - Update the URLs above with your actual deployment URLs.
+> **✅ All services deployed successfully!** - Frontend, Admin, and Backend are all live.
 
 ### 🎯 Quick Test
 - **Customer App**: Browse menu, add items to cart, and place orders
