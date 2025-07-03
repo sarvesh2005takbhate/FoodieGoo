@@ -1,4 +1,10 @@
-# 🍕 Food Delivery App - MERN Stack
+# 🍕 F| Component | Live URL | Description |
+|-----------|----------|-------------|
+| 🛒 **Customer App** | [https://kaleidoscopic-dolphin-f2171b.netlify.app](https://kaleidoscopic-dolphin-f2171b.netlify.app) | Main food ordering application |
+| 🔧 **Admin Panel** | [https://capable-rolypoly-60bb52.netlify.app](https://capable-rolypoly-60bb52.netlify.app) | Restaurant management dashboard |
+| 🚀 **Backend API** | [https://foodiegoo.onrender.com](https://foodiegoo.onrender.com) | RESTful API server |
+
+> **✅ All services deployed successfully!** - Frontend, Admin, and Backend are all live and connected.ivery App - MERN Stack
 
 A full-stack food delivery application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) featuring Stripe payment integration, real-time order management, and a comprehensive admin panel.
 

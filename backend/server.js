@@ -19,7 +19,7 @@ const port = process.env.PORT || 4000;
 app.use(express.json()) //request from frontend
 app.use(cors({
     origin: [
-        "https://glistening-heliotrope-9dc685.netlify.app",
+        "https://kaleidoscopic-dolphin-f2171b.netlify.app",
         "https://capable-rolypoly-60bb52.netlify.app",
         "http://localhost:3000",
         "http://localhost:5173",
