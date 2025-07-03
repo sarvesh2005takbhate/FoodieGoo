@@ -12,12 +12,20 @@ import orderRouter from './routes/orderRoute.js';
 
  //app config
 const app = express()
-const port = process.env.PORT ;
+const port = process.env.PORT || 4000;
 
 
 //middleware
 app.use(express.json()) //request from frontend
-app.use(cors()) //backed from any content
+app.use(cors({
+    origin: [
+        "https://eclectic-beignet-773c7f.netlify.app",
+        "https://fanciful-sfogliatella-6e62c1.netlify.app",
+        "http://localhost:3000",
+        "http://localhost:5173"
+    ],
+    credentials: true
+})) //backend from any content
 
 // db connection
 connectDB();
@@ -34,6 +42,6 @@ app.get("/",(req,res)=>{
     res.send("API WORKING")
 })
 
-app.listen(port, () => {  
-    console.log(`Server is running on port http://localhost:${port}`);
-})
+app.listen(port, () => {
+    console.log(`Server Started on http://localhost:${port}`);
+});

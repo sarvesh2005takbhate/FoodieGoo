@@ -1,15 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "type": "module",
+  "description": "FoodieGoo Backend API",
   "main": "server.js",
+  "type": "module",
   "scripts": {
+    "server": "nodemon server.js",
     "start": "node server.js",
-    "server":"nodemon server.js"
+    "build": "npm install"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "body-parser": "^2.2.0",
