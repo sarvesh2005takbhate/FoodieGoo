@@ -6,11 +6,11 @@ A full-stack food delivery application built with the MERN stack (MongoDB, Expre
 
 | Component | Live URL | Description |
 |-----------|----------|-------------|
-| 🛒 **Customer App** | [https://foodiegoo-frontend.vercel.app](https://foodiegoo-frontend.vercel.app) | Main food ordering application |
-| 🔧 **Admin Panel** | [https://foodiegoo-admin.vercel.app](https://foodiegoo-admin.vercel.app) | Restaurant management dashboard |
-| 🚀 **Backend API** | [https://foodiegoo-backend.railway.app](https://foodiegoo-backend.railway.app) | RESTful API server |
+| 🛒 **Customer App** | [YOUR-NETLIFY-FRONTEND-URL](https://your-app.netlify.app) | Main food ordering application |
+| 🔧 **Admin Panel** | [YOUR-NETLIFY-ADMIN-URL](https://your-admin.netlify.app) | Restaurant management dashboard |
+| 🚀 **Backend API** | [YOUR-RAILWAY-BACKEND-URL](https://your-backend.railway.app) | RESTful API server |
 
-> **Note**: Replace the URLs above with your actual deployment URLs after deploying to live servers.
+> **✅ Frontend deployed on Netlify!** - Update the URLs above with your actual deployment URLs.
 
 ### 🎯 Quick Test
 - **Customer App**: Browse menu, add items to cart, and place orders
